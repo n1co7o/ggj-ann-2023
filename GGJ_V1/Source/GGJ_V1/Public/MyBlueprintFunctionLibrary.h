@@ -15,5 +15,5 @@ class GGJ_V1_API UMyBlueprintFunctionLibrary : public UBlueprintFunctionLibrary
 	GENERATED_BODY()
 
 	UFUNCTION(BlueprintCallable)
-	static TArray<UDataAsset*> SortArrayByName(TArray<UDataAsset*>& ArrayToSort);
+	static TArray<UObject*> SortArrayByName(TArray<UObject*>& ArrayToSort);
 };

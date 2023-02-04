@@ -3,9 +3,9 @@
 
 #include "MyBlueprintFunctionLibrary.h"
 
-TArray<UDataAsset*> UMyBlueprintFunctionLibrary::SortArrayByName(TArray<UDataAsset*>& ArrayToSort)
+TArray<UObject*> UMyBlueprintFunctionLibrary::SortArrayByName(TArray<UObject*>& ArrayToSort)
 {
-	ArrayToSort.Sort([&](const UDataAsset& A, const UDataAsset& B) {
+	ArrayToSort.Sort([&](const UObject& A, const UObject& B) {
 		return A.GetFName().ToString() > B.GetFName().ToString();
 	});
 	return ArrayToSort;

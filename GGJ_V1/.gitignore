@@ -74,4 +74,9 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 # Asset packs
+Content/__ExternalActors__/**
+Content/__ExternalObjects__/**
+Content/Characters/**
+Content/LevelPrototyping/**
 Content/StarterContent/**
+Content/ThirdPerson/**
